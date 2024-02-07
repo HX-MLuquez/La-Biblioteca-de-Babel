@@ -1,6 +1,7 @@
 # La-Biblioteca-de-Babel
 Código que contiene TODOS los LIBROS, los ya existentes y los que aún no han de existir también. Tipeado en javascript. Recreado de una función creadora de matrices binarias.
 
+### Para soñar con obtener todos los libros que existen y existirán nos podemos basar en:
 LA SELECCIÓN DEL TOTAL DE CARACTERES Y LOS TIPOS DE CARACTERES A UTILIZAR SE BASAN EN:
 
 que La novela más larga
@@ -22,6 +23,13 @@ POR ELLO 739.154 caracteres por volumen SON UN NUMERO DE CARACTERES IDEAL.
 Y LOS TIPOS DE CARACTERES SE DEBE A QUE SON LOS REQUERIDOS AL MENOS DENTRO DEL
 ALFABETO ESPAÑOL EN TODA LA LITERATURA EN GENERAL.
 
+## Número de combinaciones posibles considerando solo la lengua española
+- 92 tipos de caracteres necesarios 
+- 739.154 caracteres por volumen
+    - Son 92 ** 739.154 
+```
+Un número extremadamente extenso, fuera de la comprensión humana
+```
 
 SEGÚN BORGES:
 El universo (que otros llaman la Biblioteca) se compone de un número indefinido, y
