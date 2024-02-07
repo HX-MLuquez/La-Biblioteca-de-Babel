@@ -109,7 +109,7 @@ export default function App() {
             <label>
               Tipos de caracteres:
               <select
-                // multiple
+                multiple
                 value={characterTypes}
                 onChange={addCharacters}
               >
@@ -136,7 +136,7 @@ export default function App() {
               Tipos de caracteres seleccionados:
               {characterTypes.map((character) => (
                 <div className="chars" key={character}>
-                  <button onClick={() => deleteCharacters(character)}>x</button>
+                  <button className="x" onClick={() => deleteCharacters(character)}>x</button>
                   <span style={{ marginLeft: "5px", cursor: "pointer" }}>
                     {character}
                   </span>
