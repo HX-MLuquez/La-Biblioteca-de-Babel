@@ -58,7 +58,7 @@ export default function App() {
     if (posibilidades > 25040) {
       setMessage(
         `"La cantidad de posibilidades es muy alta. \n 
-        Y su pc de seguro no puede procesar todas las posibilidades.
+        Y su pc de seguro no puede procesar todas las posibilidades que son ${posibilidades}
         ¿Desea continuar?"`
       );
       setBttnMessage(true);
@@ -86,10 +86,10 @@ export default function App() {
             aún no han de existir también. Tipeado en javascript. Recreado de
             una función creadora de matrices binarias.
           </h4>
-          <h4 style={{ color: "blue" }}>
+          <h5>
             Te Invito a probar con algo pequeño, como: Cantidad de caracteres: 4
             y Tipos de caracteres: "space" , "p" , "a" , "m"
-          </h4>
+          </h5>
         </div>
         <div className="centerBody">
           <div className="boxLeft">

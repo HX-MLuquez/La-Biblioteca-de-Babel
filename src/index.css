@@ -12,21 +12,48 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+  font-size: 16px;
 }
 
 a {
   font-weight: 500;
-  color: #646cff;
+  color: #151735;
   text-decoration: inherit;
 }
 a:hover {
-  color: #535bf2;
+  color: #292c6c;
+}
+h4 {
+  font-weight: 500;
+  color: #151735;
+  text-decoration: inherit;
+}
+h4:hover {
+  color: #2c987a;
+}
+h5 {
+  font-weight: 500;
+  color: #0e156d;
+  text-decoration: inherit;
+}
+h5:hover {
+  color: #131ee7;
 }
 
 
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+  background-color: #d3fac2;
+  padding: 20px 4px;
+  border-radius: 3px;
+  color: #060a36;
+  transition: transform 0.8s ease-in-out; 
+}
+
+
+h1:hover {
+  transform: scale(1.02); 
 }
 
 button {
@@ -47,4 +74,13 @@ button:hover {
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
+}
+
+
+
+@media screen and (max-width: 768px) {
+  /* Estilos para pantallas pequeñas */
+  :root {
+    font-size: 14px; /* Reducir tamaño de fuente en pantallas pequeñas */
+  }
 }

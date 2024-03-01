@@ -34,9 +34,9 @@ const cantidadCaracteresExample = 4;
 function laBibliotecaDeBabel(cantidadCaracteres, tiposDeCaracteres) {
   const checkPossibilities = tiposDeCaracteres.length ** cantidadCaracteres;
   console.log("checkPossibilities -> ", checkPossibilities);
-  if (checkPossibilities > 25040) {
-    return "son muchas posibilidades para procesar '///o_._o\\\'";
-  }
+  // if (checkPossibilities > 25040) {
+  //   return "son muchas posibilidades para procesar '///o_._o\\\'";
+  // }
   if (cantidadCaracteres < 1) return [];
   const result = [];
   losCaracteres("", cantidadCaracteres);

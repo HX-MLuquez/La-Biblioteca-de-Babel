@@ -10,6 +10,9 @@
 
 .header {
   text-align: center;
+  background-color: #f2fcee;
+  padding: 4px;
+  border-radius: 3px;
 }
 
 .centerBody {
@@ -72,7 +75,118 @@ select {
   margin-top: 20px;
   text-align: center;
 }
-.x{
+.x {
   padding: 1px 3px;
   color: rgb(248, 78, 78);
+}
+
+.container {
+  /* Estilos del contenedor principal */
+  max-width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.header {
+  /* Estilos del encabezado */
+  margin-bottom: 20px;
+}
+
+.centerBody {
+  /* Estilos del cuerpo central */
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.boxLeft,
+.boxRight {
+  /* Estilos de las cajas izquierda y derecha */
+  flex: 1 1 50%;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 768px) {
+  .boxLeft,
+  .boxRight {
+    flex: 1 1 100%; /* Cambiar a ancho completo en pantallas pequeñas */
+  }
+}
+
+.boxLeft {
+  /* Estilos específicos de la caja izquierda */
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .boxLeft {
+    margin-right: 0; /* Eliminar margen derecho en pantallas pequeñas */
+  }
+}
+
+.boxRight {
+  /* Estilos específicos de la caja derecha */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .boxRight {
+    border: none; /* Eliminar borde en pantallas pequeñas */
+    border-radius: 0;
+    padding: 0;
+    background-color: transparent;
+  }
+}
+
+.chars {
+  /* Estilos de caracteres seleccionados */
+  display: inline-block;
+  background-color: #f0f0f0;
+  padding: 5px;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  .chars {
+    margin-bottom: 5px; /* Agregar margen inferior en pantallas pequeñas */
+  }
+}
+
+.message {
+  /* Estilos de mensajes */
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .message {
+    margin-top: 10px; /* Reducir margen superior en pantallas pequeñas */
+  }
+}
+
+.footer {
+  /* Estilos del pie de página */
+  margin-top: 20px;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    margin-top: 10px; /* Reducir margen superior en pantallas pequeñas */
+  }
+}
+
+.x {
+  /* Estilos de botón de eliminar */
+  padding: 1px 3px;
+  color: rgb(248, 78, 78);
+}
+
+@media screen and (max-width: 768px) {
+  .x {
+    padding: 0;
+  }
 }
